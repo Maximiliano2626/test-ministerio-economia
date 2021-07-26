@@ -11,13 +11,15 @@ function JoinRings(b) {
 }
 
 for(var i = 1; i <= totalRings; i++) {
-     if((numero % 2) !== 0) {
+     if((i % 2) == 0) {
         openRing(i);
     }
 }
 
 for(var i = 1; i <= totalRings; i++) {
-     if((numero % 2) !== 0) {
+     if((i % 2) == 0) {
         JoinRings(i);
     }
 }
+
+console.log('El costo total es : ' + total);
