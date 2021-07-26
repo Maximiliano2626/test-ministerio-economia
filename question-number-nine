@@ -6,7 +6,7 @@ fucntion openRing(a) {
 }
 
 
-function JoinRings(b) {
+function joinRings(b) {
   total = total + 35;
 }
 
