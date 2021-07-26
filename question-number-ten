@@ -1,0 +1,4 @@
+SELECT * FROM public_service as Servicio_Publico WHERE NOT EXISTS (SELECT NULL
+                     FROM permit as Permiso
+                    WHERE Permiso.public_service_id = Servicio_Publico.id)
+                    
