@@ -1,0 +1,23 @@
+var totalRings = X;
+total = 0;
+
+fucntion openRing(a) {
+  total = total + 20;
+}
+
+
+function JoinRings(b) {
+  total = total + 35;
+}
+
+for(var i = 1; i <= totalRings; i++) {
+     if((numero % 2) !== 0) {
+        openRing(i);
+    }
+}
+
+for(var i = 1; i <= totalRings; i++) {
+     if((numero % 2) !== 0) {
+        JoinRings(i);
+    }
+}
